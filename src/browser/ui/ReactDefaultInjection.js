@@ -26,6 +26,7 @@ var ReactDefaultBatchingStrategy = require('ReactDefaultBatchingStrategy');
 var ReactDOMComponent = require('ReactDOMComponent');
 var ReactDOMButton = require('ReactDOMButton');
 var ReactDOMForm = require('ReactDOMForm');
+var ReactDOMIframe = require('ReactDOMIframe');
 var ReactDOMImg = require('ReactDOMImg');
 var ReactDOMIDOperations = require('ReactDOMIDOperations');
 var ReactDOMInput = require('ReactDOMInput');
@@ -85,6 +86,7 @@ function inject() {
   ReactInjection.NativeComponent.injectComponentClasses({
     'button': ReactDOMButton,
     'form': ReactDOMForm,
+    'iframe': ReactDOMIframe,
     'img': ReactDOMImg,
     'input': ReactDOMInput,
     'option': ReactDOMOption,
